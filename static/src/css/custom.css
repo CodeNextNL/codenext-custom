@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #222222 !important;
+}
+
+.navbar span {
+  color: white;
+}
+
+.navbar-default a:hover {
+  background-color: #090909;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+footer {
+  padding-top: 32px;
+}
+
+.o_footer {
+  background-color: #464958 !important;
+  color: white;
+
+  .text-muted {
+    color: white !important;
+  }
+}
+
+.o_footer a {
+  color: #ffffff;
+}
+
+.s_carousel .oe_custom_bg {
+  height: 440px !important;
+}
+
+section:not(.oe_img_bg):not(.jumbotron) {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.jumbotron {
+  background-color: rgb(70, 131, 153) !important;
+}
+
+/* refactor */
+.container {
+  h2 {
+    padding-top: 18px;
+  }
+}
