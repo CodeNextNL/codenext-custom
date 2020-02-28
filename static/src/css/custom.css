@@ -2,12 +2,27 @@
   background-color: #222222 !important;
 }
 
-.navbar span {
+.navbar-static-top {
+    border-width: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
   color: white;
 }
 
 .navbar-default a:hover {
   background-color: #090909;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: #fff;
+    background-color: #090909;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #090909;
 }
 
 .nav-link {
