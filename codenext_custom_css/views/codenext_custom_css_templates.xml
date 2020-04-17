@@ -2,7 +2,7 @@
 <odoo>
     <template id="assets_frontend" inherit_id="web.assets_frontend">
         <xpath expr="." position="inside">
-            <link rel="stylesheet" href="/codenext-custom-css/static/src/scss/custom.scss"/>
+            <link rel="stylesheet" href="/codenext_custom_css/static/src/scss/custom.scss"/>
         </xpath>
     </template>
 </odoo>
