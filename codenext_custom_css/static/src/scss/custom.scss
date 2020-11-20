@@ -14,13 +14,13 @@ footer {
   background-color: #464958 !important;
   color: white;
 
+  a:not(.dropdown-item) {
+    color: #ffffff;
+  }
+  
   .text-muted {
     color: white !important;
   }
-}
-
-.o_footer a {
-  color: #ffffff;
 }
 
 .s_carousel .oe_custom_bg {
