@@ -2,7 +2,7 @@
 <odoo>
 
     <!-- Remove language selector behind copyright in footer -->
-    <template id="layout_footer_copyright" inherit_id="website.layout_footer_copyright" name="Remove Footer Language Selector">
+    <template id="layout" inherit_id="website.layout" name="Remove Footer Language Selector">
         <xpath expr="//t[@t-call='website.language_selector']" position="replace" />
     </template>
 

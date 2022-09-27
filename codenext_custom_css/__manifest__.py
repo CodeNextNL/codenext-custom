@@ -4,7 +4,7 @@
     'summary': 'codeNext Custom CSS',
     'author': "codeNext",
     'website': "http:/www.codenext.nl",
-    'version': '12.0.0.1',
+    'version': '13.0.0.1',
     'installable': True,
     'license': 'LGPL-3',
     'depends': ['website'],
